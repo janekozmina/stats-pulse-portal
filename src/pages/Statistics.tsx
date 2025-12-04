@@ -114,11 +114,15 @@ const Statistics = () => {
                         </CardHeader>
                         <CardContent>
                           <div className="h-80 bg-muted rounded-md flex items-center justify-center border-2 border-dashed">
-                            <div className="text-center">
-                              <BarChart3 className="h-16 w-16 text-muted-foreground mx-auto mb-4" />
-                              <p className="text-muted-foreground font-medium">Chart Placeholder</p>
-                              <p className="text-sm text-muted-foreground">Line chart showing instant payment volumes over time</p>
-                            </div>
+                            <iframe
+                              width="100%"
+                              height="400"
+                              seamless
+                              frameBorder="0"
+                              scrolling="no"
+                              src="http://bian.cma.se/superset/explore/p/8KgdpYD3L0b/?standalone=1&height=400"
+                            >
+                            </iframe>
                           </div>
                         </CardContent>
                       </Card>
